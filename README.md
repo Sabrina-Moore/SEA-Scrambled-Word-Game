@@ -1,4 +1,4 @@
-# Word Unscramble Game
+# Anagramble
 A react browser based word puzzle game where the player is given a scrambled word and must guess valid anagrams. An anagram is a word that can be rearranged into other words using the same letters (but not necissarily use all letters). The game uses external API's to generate a random word and validate the guess against a dictionary. The code also relies on Material UI components. 
 
 
