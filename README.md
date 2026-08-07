@@ -1,13 +1,16 @@
 # Anagramble
-A react browser based word puzzle game where the player is given a scrambled word and must guess valid anagrams. An anagram is a word that can be rearranged into other words using the same letters (but not necissarily use all letters). The game uses external API's to generate a random word and validate the guess against a dictionary. The code also relies on Material UI components. 
+
+## About
+Anagramble is a react web browser word game where the player is given a scrambled word and must guess valid anagrams. 
+</br> 
+An anagram is a word that can be rearranged into other words using the same letters, but not necessarily use all the letters. 
+</br>
+The game uses external API's to generate a random word and validate the guess against a dictionary. The code also relies on Material UI components. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-# API's used
-Random word generator API: https://random-word-api.herokuapp.com/home 
-Dictionary API: https://dictionaryapi.dev/
-
-# Game Flow
-
+## Game Flow
 1. When the website loads and when the "New Word" button is pressed, the code fetches a random word from the API. 
 2. The word is then scrambled using the Fisher-Yates shuffle algorithm.
 3. The scrambled word is displayed.
@@ -17,7 +20,26 @@ Dictionary API: https://dictionaryapi.dev/
 7. The guess, its correctness value, and points are shown in a guess history panel. 
 8. Each round is one scrambled word and there is no limit to how many rounds or how many guesses a player can have. The game simply ends whenever they want to stop.
 9. Game can be reset by refreshing the webpage. 
-10. There are two optional popups that can be clicked to give more information on how to play the game and how the game works. 
+10. There are two optional popups that can be clicked to give more information on how to play the game and how the game works.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# Features
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Tech Stack
+
+- <a href="https://reactnative.dev/"> <img src="https://skillicons.dev/icons?i=react" alt="Tech Stack Icons" width="20" height="20" align="center" alt="React Native" /></a> **React Native** 
+- <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20" height="20" align="center" alt="JavaScript" /></a> **JavaScript**
+- **Material UI** for react components
+- **Random Word Generator API** at https://random-word-api.herokuapp.com/home 
+- **Dictionary API** at https://dictionaryapi.dev/
+- 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 <!-- # Game Features
