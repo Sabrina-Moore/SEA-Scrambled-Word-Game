@@ -42,6 +42,56 @@ The game uses external API's to generate a random word and validate the guess ag
 
 
 
+## Getting Started
+This feature was designed using React Native and Expo with the IOS system in mind. 
+
+
+### Prerequisites
+
+To run this react native code, you will need to use the Expo Go app on your phone or a simulator like Xcode on mac computer. 
+
+
+### Running code on Expo
+
+### Installation
+
+Install the Expo app on your phone. Download here for IOS and here for Android. 
+Open the Expo app. 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- USAGE EXAMPLES -->
+
+
+## Contributions
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/github_username/repo_name.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Enter your API in `config.js`
+   ```js
+   const API_KEY = "ENTER YOUR API";
+   ```
+4. Change git remote url to avoid accidental pushes to base project
+   ```sh
+   git remote set-url origin github_username/repo_name
+   git remote -v # confirm the changes
+   ```
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 <!-- # Game Features
 
 There are two buttons, two modals, a textField and multiple box and containers to display information. History system. Checks system. 
