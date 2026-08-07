@@ -43,20 +43,17 @@ The game uses external API's to generate a random word and validate the guess ag
 
 
 ## Getting Started
-This feature was designed using React Native and Expo with the IOS system in mind. 
+
 
 
 ### Prerequisites
-
-To run this react native code, you will need to use the Expo Go app on your phone or a simulator like Xcode on mac computer. 
 
 
 ### Running code on Expo
 
 ### Installation
 
-Install the Expo app on your phone. Download here for IOS and here for Android. 
-Open the Expo app. 
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
