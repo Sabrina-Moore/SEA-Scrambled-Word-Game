@@ -24,7 +24,7 @@ The game uses external API's to generate a random word and validate the guess ag
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Features
+## Features
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
