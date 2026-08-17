@@ -19,8 +19,9 @@ import './index.css';
 
 
 //-----------------------------------------------------------------------------
+//Stretch goals: enter key, scoreboard/leaderboard, reshuffle, answer built into new round, refresh game button rather than website refresh
 
-//Stretch milestones: guess panel tracking correct and points, points system, answer snackbar, enter key, scoreboard/leaderboard
+//Completed stretch milestones: guess panel tracking correct and points, points system, answer snackbar
 
 //TODO: make enter key also activate guess
 
@@ -28,7 +29,7 @@ import './index.css';
 //let user choose length or difficulty? Slider? Options? 
 
 //-----------------------------------------------------------------------------
-//fixed issues
+//fixed issues and added features
 
 //Added feature for points system and tracking 
 
