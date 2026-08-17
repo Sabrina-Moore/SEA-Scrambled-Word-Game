@@ -36,7 +36,6 @@ The game uses external API's to generate a random word and validate the guess ag
 - **Material UI** for react components
 - **Random Word Generator API** at https://random-word-api.herokuapp.com/home 
 - **Dictionary API** at https://dictionaryapi.dev/
-- 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -49,7 +48,6 @@ The game uses external API's to generate a random word and validate the guess ag
 ### Prerequisites
 
 
-### Running code on Expo
 
 ### Installation
 
