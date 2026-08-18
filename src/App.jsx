@@ -19,8 +19,9 @@ import './index.css';
 
 
 //-----------------------------------------------------------------------------
+//Stretch goals: enter key, scoreboard/leaderboard, reshuffle, answer built into new round, refresh game button rather than website refresh
 
-//Stretch milestones: guess panel tracking correct and points, points system, answer snackbar, enter key, scoreboard/leaderboard
+//Completed stretch milestones: guess panel tracking correct and points, points system, answer snackbar
 
 //TODO: make enter key also activate guess
 
@@ -28,7 +29,7 @@ import './index.css';
 //let user choose length or difficulty? Slider? Options? 
 
 //-----------------------------------------------------------------------------
-//fixed issues
+//fixed issues and added features
 
 //Added feature for points system and tracking 
 
@@ -111,8 +112,9 @@ function App() {
         const data = await result.json(); //stores response (array) from word generator
         word = data[0]; //generator returns an array, and we store the first item in word
 
+          //originally using `https://api.dictionaryapi.dev/api/v2/entries/en/${word}` but API went down
         const dictionaryResult = await fetch( //stores response from dictionary
-          `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`
+          `https://freedictionaryapi.com/api/v1/entries/en/${word}`
         );
 
         if (dictionaryResult.ok) { //if true (response is not a 404 error), stop loop
@@ -208,14 +210,17 @@ function App() {
    const validWordCheck = async (guess) => {
     try {
       const response = await fetch(
-        `https://api.dictionaryapi.dev/api/v2/entries/en/${guess}`
+        `https://freedictionaryapi.com/api/v1/entries/en/${guess}`
       );
 
-      return response.ok;
-    } catch(error) {
-      return false;
-    }
-  };
+      const data = await response.json();
+//data.entries? is specifically for new dictionary api, remove if returning to previous api
+    return response.ok && data.entries?.length > 0;
+  } catch (error) {
+    console.error("Error checking word:", error);
+    return false;
+  }
+};
 
    //------------------------------------------------------------------------
    //helper function to handle states and function execution
