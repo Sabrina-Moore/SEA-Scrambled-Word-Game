@@ -27,6 +27,12 @@ The game uses external API's to generate a random word and validate the guess ag
 ## Features
 
 
+
+
+https://github.com/user-attachments/assets/5d9688fb-87ba-4bef-8e1e-a0c3006e0331
+
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Tech Stack
@@ -34,8 +40,9 @@ The game uses external API's to generate a random word and validate the guess ag
 - <a href="https://reactnative.dev/"> <img src="https://skillicons.dev/icons?i=react" alt="Tech Stack Icons" width="20" height="20" align="center" alt="React Native" /></a> **React** 
 - <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="20" height="20" align="center" alt="JavaScript" /></a> **JavaScript**
 - **Material UI** for react components
-- **Random Word Generator API** at https://random-word-api.herokuapp.com/home 
-- **Dictionary API** at https://dictionaryapi.dev/
+- **Random Word Generator API** at https://random-word-api.herokuapp.com/home
+- **Current Dictionary API** at https://freedictionaryapi.com
+- **Old Dictionary API** at https://dictionaryapi.dev/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
