@@ -1,6 +1,6 @@
 # Anagramble
 
-## A Scrambled Word Game
+## About the Project
 Anagramble is a react web browser word game where the player is given a scrambled word and must guess valid anagrams. 
 </br> 
 An anagram is a word that can be rearranged into other words using the same letters, but not necessarily use all the letters. 
@@ -55,18 +55,6 @@ https://github.com/user-attachments/assets/5d9688fb-87ba-4bef-8e1e-a0c3006e0331
 
 
 
-### Installation
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-
-
-## Contributions
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Installation
@@ -84,6 +72,15 @@ https://github.com/user-attachments/assets/5d9688fb-87ba-4bef-8e1e-a0c3006e0331
    git remote set-url origin github_username/repo_name
    git remote -v # confirm the changes
    ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Contributions
+
+
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
