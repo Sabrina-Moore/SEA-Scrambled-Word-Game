@@ -5,8 +5,8 @@
 
 - [Overview](#Overview)
 - [Features](#Features)
-- [Tech Stack](#Tech)
-- [Getting Started](#Getting)
+- [Tech Stack](#Tech-Stack)
+- [Getting Started](#Getting-Started)
 - [Contributions](#Contributions)
 
 
