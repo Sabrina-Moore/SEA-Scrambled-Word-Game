@@ -1,6 +1,17 @@
 # Anagramble
 
-## About the Project
+
+## 📚 Table of Contents
+
+- [Overview](#Overview)
+- [Features](#Features)
+- [Tech Stack](#Tech)
+- [Getting Started](#Getting)
+- [Contributions](#Contributions)
+
+
+
+## Overview
 Anagramble is a react web browser word game where the player is given a scrambled word and must guess valid anagrams. 
 </br> 
 An anagram is a word that can be rearranged into other words using the same letters, but not necessarily use all the letters. 
